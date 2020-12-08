@@ -2,7 +2,7 @@
 layout: post
 title: Qui som? Què fem?
 description: Lorem ipsum dolor est
-image: assets/images/banahouse.jpg
+image: assets/images/sierra.jpg
 nav-menu: true
 ---
 
