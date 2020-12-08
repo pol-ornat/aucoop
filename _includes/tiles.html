@@ -1,5 +1,5 @@
 {% for page in site.html_pages %}
-    {% if page.layout != "home" and page.tile-main == true %}
+    {% if page.layout != "home" and page.show_tile == true %}
         {% assign tiles = site.posts %}
     {% endif %}
 {% endfor %}
