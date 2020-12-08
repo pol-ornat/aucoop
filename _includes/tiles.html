@@ -1,6 +1,8 @@
-{% if page.tile-main == true %}
-    {% assign tiles = site.posts %}
-{% endif %}
+{% for page in site.html_pages %}
+    {% if page.layout != "home" and page.tile-main == true %}
+        {% assign tiles = site.posts %}
+    {% endif %}
+{% endfor %}
 <section id="one" class="tiles">
   {% for tile in tiles limit:site.tiles-count %}
   <article>
